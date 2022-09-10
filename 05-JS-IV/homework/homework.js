@@ -156,7 +156,7 @@ function agregarMetodoCalculoDescuento (producto) {
     let precioConDescuento = producto.precio - descuento
     return precioConDescuento;
   }
-  return producto
+  return producto;
 }
 
 // No modificar nada debajo de esta línea
